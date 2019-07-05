@@ -1,0 +1,101 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-05T11:12:56.219Z",
+        "line": 6,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "test-calculator;add-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2316400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter 100 in the calculctor",
+            "match": {
+              "location": "calculatorstepdefenitionfile.I_enter_100_in_the_calculctor()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 124700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I press add",
+            "match": {
+              "location": "calculatorstepdefenitionfile.I_press_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have entered 100 in the calculator",
+            "match": {
+              "location": "calculatorstepdefenitionfile.I_have_entered_100_in_the_calculator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "calculatorstepdefenitionfile.I_press_equal_symbol()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 194900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The result should be 200 on the screen",
+            "match": {
+              "location": "calculatorstepdefenitionfile.The_result_should_be_200_on_the_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Test calculator",
+    "description": " This file describes calculator functionality",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:cucu/calculator.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
